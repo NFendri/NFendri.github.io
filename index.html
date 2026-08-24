@@ -35,8 +35,6 @@ h1{font-size:26px;font-weight:normal;margin-bottom:0.25rem;color:#1a1a1a}
 .photo-placeholder{width:130px;height:155px;background:#f0f0f0;border:1px solid #ddd;border-radius:3px;display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 auto;color:#aaa;font-family:Arial,sans-serif;font-size:11px;gap:6px}
 .photo-placeholder svg{opacity:.35}
 
-a.cv-btn{display:inline-block;margin-top:0.75rem;padding:4px 14px;border:1px solid #1a55a0;border-radius:3px;font-size:12px}
-
 h2{font-size:17px;font-weight:normal;color:#1a1a1a;border-bottom:1px solid #e0e0e0;padding-bottom:0.4rem;margin-bottom:1.25rem;margin-top:2.75rem}
 
 .pub-item{margin-bottom:1.75rem}
@@ -71,7 +69,6 @@ footer{margin-top:3.5rem;padding:1.5rem 0;border-top:1px solid #e0e0e0;font-fami
   .hero-body{grid-template-columns:1fr}
   .contact-block{display:grid;grid-template-columns:1fr 1fr;gap:0 1.5rem}
   .contact-block .photo-wrap{grid-column:1/-1;text-align:left}
-  .contact-block .cv-btn{grid-column:1/-1}
   .photo-placeholder{margin:0}
   .exp-item{grid-template-columns:1fr}
   .exp-date{padding-top:0}
@@ -87,8 +84,7 @@ footer{margin-top:3.5rem;padding:1.5rem 0;border-top:1px solid #e0e0e0;font-fami
     <a href="#experience">Experience</a>
     <a href="#education">Education</a>
     <a href="#skills">Skills</a>
-    <a href="Nasser_Fendri_Quant_Resume_V1_1Page.pdf" target="_blank" rel="noopener">CV</a>
-  </div>
+    div>
 </nav>
 
 <div class="hero">
@@ -126,8 +122,6 @@ footer{margin-top:3.5rem;padding:1.5rem 0;border-top:1px solid #e0e0e0;font-fami
       <a href="https://github.com/NFendri" target="_blank" rel="noopener">NFendri</a>
       <span class="contact-label">Languages</span>
       English · French · Arabic
-      <br>
-      <a class="cv-btn" href="Nasser_Fendri_Quant_Resume_V1_1Page.pdf" target="_blank" rel="noopener">Download CV</a>
     </div>
   </div>
 </div>
@@ -148,7 +142,7 @@ footer{margin-top:3.5rem;padding:1.5rem 0;border-top:1px solid #e0e0e0;font-fami
 
 <div class="pub-item">
 <div class="pub-title">CVA/XVA Monte Carlo engine with wrong-way risk</div>
-<div class="pub-meta">Project &nbsp;·&nbsp; Python &nbsp;·&nbsp; 2026</div>
+<div class="pub-meta">Project &nbsp;·&nbsp; Python &nbsp;·&nbsp; 2024</div>
 <div class="pub-desc">Built a counterparty credit risk engine for an interest rate swap: simulated the exposure profile (EE/PFE) under a Vasicek short-rate model, then modeled the counterparty's default time via a correlated CIR intensity process to capture wrong-way risk, and priced CVA by Monte Carlo. Quantified the effect directly — correlating the rate and intensity factors negatively raises CVA materially above the independent case, while positive correlation lowers it, holding the marginal default probability roughly fixed.</div>
 <div class="pub-links">
 <a href="https://github.com/NFendri/cva-xva-monte-carlo-engine" target="_blank" rel="noopener">Code</a>
@@ -170,15 +164,6 @@ footer{margin-top:3.5rem;padding:1.5rem 0;border-top:1px solid #e0e0e0;font-fami
   <div class="pub-links">
     <a href="Graduation-Project-Report.pdf" target="_blank" rel="noopener">Report</a>
     <a href="https://github.com/NFendri/brick-and-mortar-or-online-platform" target="_blank" rel="noopener">Code</a>
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-title">Equity return prediction on emerging market data</div>
-  <div class="pub-meta">Project &nbsp;·&nbsp; Python &nbsp;·&nbsp; 2023</div>
-  <div class="pub-desc">Applied EDA, PCA, and factor analysis to Tunisian stock market data; compared OLS, polynomial, and regularized regression models to forecast returns, evaluated on out-of-sample R², RMSE, and residual diagnostics.</div>
-  <div class="pub-links">
-    <a href="#" class="disabled" title="Link coming soon">GitHub (coming soon)</a>
   </div>
 </div>
 
